@@ -1,0 +1,18 @@
+/* ---------- Подключение шрифтов ----------*/
+@font-face {
+	font-family: 'Harabara';
+	src: url('../fonts/Harabara.eot');
+	src: url('../fonts/Harabara.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Harabara.woff') format('woff'),
+		 url('../fonts/Harabara.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* ---------- Общие стили ----------*/
+body {
+	padding-top: 130px;
+	background-color: #842c14;
+	color: #fff;
+	font: 14px Arial, sans-serif;
+}
