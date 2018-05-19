@@ -10,9 +10,84 @@
 }
 
 /* ---------- Общие стили ----------*/
-body {
-	padding-top: 130px;
-	background-color: #842c14;
-	color: #fff;
-	font: 14px Arial, sans-serif;
+
+body{
+	position: relative;
+background-image: url(../img/background_col.jpg);
+	background-color: #842c14
+
+}
+
+
+
+header{
+
+	background-image: url(../img/background_sh.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 808px;
+	background-repeat: no-repeat;
+
+
+}
+.menu{
+	
+	margin-top: 750px;
+	height: 55px;
+	width: 929px;
+
+
+	background-image: url(../img/Menu_1.png);
+}
+.glav{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+	
+	height: 41px;
+	width: 207px;
+
+	background: url(../img/Glav.png);	
+
+}
+.glav:hover{
+	background: url(../img/Glav_dark.png);	
+}
+
+
+.Text_menu_Gl{
+
+	margin-top: 5px;
+	margin-left: 45px;
+	color: #fffee9;
+	font-size: 30px;
+	font-style: italic;
+
+}
+.Text_menu_Oz{
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+.Text_menu_Re{
+	margin-top: 10px;
+	margin-left: 30px;
+	
+	
+}
+.Text_menu_Ko{
+	margin-top: 10px;
+	
+}
+.Color_A_menu{
+	color: #fffee9;
+	font-size: 30px;
+	text-decoration: none;
+	font-style: italic;
+}
+.Color_A_menu:active{
+	color: #d7d7c2
+}
+.Color_A_menu:hover{
+	text-decoration: underline;
 }
