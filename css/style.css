@@ -18,6 +18,9 @@ background-image: url(../img/background_col.jpg);
 
 }
 
+.cont:nth-child(n+2) {
+display: none;
+}
 
 
 header{
@@ -32,7 +35,8 @@ header{
 }
 .menu{
 	
-	margin-top: 750px;
+	margin-top: 730px;
+	margin-left: 15px;
 	height: 55px;
 	width: 929px;
 
@@ -52,6 +56,7 @@ header{
 }
 .glav:hover{
 	background: url(../img/Glav_dark.png);	
+	cursor: pointer;
 }
 
 
@@ -67,16 +72,17 @@ header{
 .Text_menu_Oz{
 	margin-top: 10px;
 	margin-left: 20px;
-
+	cursor: pointer;
 }
 .Text_menu_Re{
 	margin-top: 10px;
 	margin-left: 30px;
-	
+	cursor: pointer;
 	
 }
 .Text_menu_Ko{
 	margin-top: 10px;
+	cursor: pointer;
 	
 }
 .Color_A_menu{
@@ -86,8 +92,34 @@ header{
 	font-style: italic;
 }
 .Color_A_menu:active{
-	color: #d7d7c2
+	color: #d7d7c2;
 }
 .Color_A_menu:hover{
 	text-decoration: underline;
+}
+.Home{
+	background-color: #000000;
+}
+
+.ImageHome{
+	padding-top: 200px;
+	padding-left: 260px;
+
+}
+.ImageHome img {
+max-width: 700px;
+
+}
+.Home_Text{
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 25px;
+	color: #6a898c;
+	font-family: 'Arial', Harabara, sans-serif;
+	font-style: italic;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }

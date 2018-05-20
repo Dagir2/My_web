@@ -2,45 +2,96 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Резюме</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/960_12_col.css">
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
+
+
 
 <header>
 	<div class="container_12">
 
 		<div class="menu">
-			<a href="index.html" >
-				<div class="glav">
+				<div class="glav" onclick="OpenHome()">
 							<h1 class="Text_menu_Gl">Главная</h1>
 				</div>
-			</a>
 				<div class="grid_3 push_3">
-						<a href="#" class="Color_A_menu">
-							<h1 class="Text_menu_Oz">Ожидания</h1>
+							<span class="Color_A_menu" onclick="OpenExpectation()">
+								<h1 class="Text_menu_Oz" >Ожидания</h1>
+							</span>
 						</div>
 				<div class="grid_3 push_3">
-							<a href="#" class="Color_A_menu">
+							<span class="Color_A_menu" onclick="OpenSummary()">
 								<h1 class="Text_menu_Re">Резюме</h1>
-							</a>	
+							</span>	
 					</div>	
 					<div class="grid_3 push_3">
-							<a href="#" class="Color_A_menu">
+							<span class="Color_A_menu" onclick="OpenContacts()">
 								<h1 class="Text_menu_Ko">Контакты</h1>
-							</a>	
+							</span>
+							
 					</div>		
 		</div>
-	</div>
-
-	
-		
-		
+	</div>			
 	
 </header>
 
+<section>
+	<div class="cont" id="Home">
+		<div class="container_12">
+			<div class="Home">
+				<p class="Home_Text">Это мой первый сайт, а также макет  не судите строго. Немного о сайте: макет сделан в InDesign, а верстка выполнена в sublime text 3. Цель этого сайта заменить скучные резюме, которые постоянно требуют кампании. Остальную информацию можно найти в других вкладках.</p>
+				<div class="ImageHome">
+					<img src="img/Image_home.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cont" id="Expectation">
+		Expectation
+	</div>
+	<div class="cont" id="Summary">
+		Summary
+	</div>
+	<div class="cont" id="Contacts">
+		Contacts
+	</div>
+
+
+</section>
+
+
+ 	<script>
+function OpenHome() {
+    document.getElementById("Expectation").style.display = "none";
+    document.getElementById("Summary").style.display = "none";
+    document.getElementById("Contacts").style.display = "none";
+    document.getElementById("Home").style.display = "block";
+}
+
+function OpenExpectation() {	
+	document.getElementById("Home").style.display = "none";
+    document.getElementById("Summary").style.display = "none";
+    document.getElementById("Contacts").style.display = "none";
+    document.getElementById("Expectation").style.display = "block";
+}
+function OpenSummary() {	
+	document.getElementById("Home").style.display = "none";
+    document.getElementById("Expectation").style.display = "none";
+    document.getElementById("Contacts").style.display = "none";
+    document.getElementById("Summary").style.display = "block";
+}
+function OpenContacts() {	
+	document.getElementById("Home").style.display = "none";
+    document.getElementById("Expectation").style.display = "none";
+    document.getElementById("Summary").style.display = "none";
+    document.getElementById("Contacts").style.display = "block";
+}
+</script>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
