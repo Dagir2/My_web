@@ -28,17 +28,17 @@ a{
 
 header{
 
-	background-image: url(../img/background_sh.jpg);
+	background-image: url(../img/background_sh.jpeg);
 	background-repeat: repeat-x;
 	background-position: top center;
-	min-height: 808px;
+	min-height: 733px;
 	background-repeat: no-repeat;
 
 
 }
 .menu{
 	
-	margin-top: 730px;
+	margin-top: 630px;
 	margin-left: 15px;
 	height: 55px;
 	width: 929px;
