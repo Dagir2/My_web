@@ -22,6 +22,9 @@ background-image: url(../img/background_col.jpg);
 display: none;
 }
 
+a{
+	text-decoration: none;
+}
 
 header{
 
@@ -72,17 +75,17 @@ header{
 .Text_menu_Oz{
 	margin-top: 10px;
 	margin-left: 20px;
-	cursor: pointer;
+
 }
 .Text_menu_Re{
 	margin-top: 10px;
 	margin-left: 30px;
-	cursor: pointer;
+
 	
 }
 .Text_menu_Ko{
 	margin-top: 10px;
-	cursor: pointer;
+	
 	
 }
 .Color_A_menu{
@@ -90,6 +93,9 @@ header{
 	font-size: 30px;
 	text-decoration: none;
 	font-style: italic;
+}
+.Color_A_menu{
+		cursor: pointer;
 }
 .Color_A_menu:active{
 	color: #d7d7c2;
@@ -141,4 +147,63 @@ background-color: #fefee6;
 	-moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+}
+.Summary_left{
+	height: 930px;
+	background-color:#efeed7;
+}
+.Summary_right{
+
+height: 930px;
+background-color:#fefee6;
+}
+.Image_Dagir img{
+	max-width: 280px;
+	max-height: 300px;
+}
+.Image_Dagir{
+	  position: relative; 
+	  top:120px;
+	  left:5px;
+	border-top: 30px;
+	border: 4px solid;
+	border-color: #000000;
+	height: 213px;
+	width: 280px;
+}
+.Dagir{
+	position: relative; 
+	top:10px;
+	font-size: 50px;
+	font-family: 'Arial', Harabara, sans-serif;
+	color: #000000;
+	text-shadow: #d600d9 0 0 2px;
+	font-style: italic;
+}
+.Dagir:hover{
+	text-shadow: green 0 0 2px;
+}
+.Profile{
+	position: relative;
+	top:25px;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+
+}
+.Button_Summary{
+	position: relative;
+cursor: pointer;
+border-radius: 12px;
+background-image: url(../img/Image_button.png);
+height: 80px;
+width: 280px;
+top: 90px;
+border-top: 20px;
+}
+section .Button_Summary{
+	margin-top: 5px;
+}
+.Button_Summary:hover{
+background-image: url(../img/Image_button_dark.png);	
 }
