@@ -13,9 +13,8 @@
 
 body{
 	position: relative;
-background-image: url(../img/background_col.jpg);
-	background-color: #842c14
-
+	background-image: url(../img/background_col.jpg);
+	background-color: #0d0d0d;
 }
 
 .cont:nth-child(n+2) {
