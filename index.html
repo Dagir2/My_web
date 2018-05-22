@@ -6,27 +6,25 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/960_12_col.css">
 	<link rel="stylesheet" href="css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
 
-
-
 <header>
+	
 	<div class="container_12">
 
 		<div class="menu">
 				<div class="glav" onclick="OpenHome()">
 							<h1 class="Text_menu_Gl">Главная</h1>
-				</div>
-				<div class="grid_3 push_3">
-							
+							</div>
+					<div class="grid_3 push_3">
 								<h1 class="Text_menu_Oz" >
 									<span class="Color_A_menu" onclick="OpenExpectation()">
 										Ожидания
 									</span>
 								</h1>
-							
 						</div>
 				<div class="grid_3 push_3">
 							
@@ -48,7 +46,6 @@
 	</div>			
 	
 </header>
-
 <section>
 	<div class="cont" id="Home">
 		<div class="container_12">
@@ -100,45 +97,33 @@
 				</div>
 			</div>
 				<div class="Summary_right">
-				
+			
 				</div>
 		</div>
 	</div>
 	<div class="cont" id="Contacts">
-		Contacts
+		<div class="Slader_Contacts">
+			<div class="sl">
+				<div class="im"><img src="img/Telegram.png" alt="Telegram" class="Slader"></div>
+				<div class="im"><img src="img/vk.png" alt="Vk" class="Slader"></div>
+				<div class="im"><img src="img/gmail.png" alt="Gmail" class="Slader"></div>
+			</div>
+		</div>
+		</div>	
 	</div>
 
 
 </section>
 
-
- 	<script>
-function OpenHome() {
-    document.getElementById("Expectation").style.display = "none";
-    document.getElementById("Summary").style.display = "none";
-    document.getElementById("Contacts").style.display = "none";
-    document.getElementById("Home").style.display = "block";
-}
-
-function OpenExpectation() {	
-	document.getElementById("Home").style.display = "none";
-    document.getElementById("Summary").style.display = "none";
-    document.getElementById("Contacts").style.display = "none";
-    document.getElementById("Expectation").style.display = "block";
-}
-function OpenSummary() {	
-	document.getElementById("Home").style.display = "none";
-    document.getElementById("Expectation").style.display = "none";
-    document.getElementById("Contacts").style.display = "none";
-    document.getElementById("Summary").style.display = "block";
-}
-function OpenContacts() {	
-	document.getElementById("Home").style.display = "none";
-    document.getElementById("Expectation").style.display = "none";
-    document.getElementById("Summary").style.display = "none";
-    document.getElementById("Contacts").style.display = "block";
-}
-</script>
+<script src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+      $("section").slick({
+      centerMode: true,
+      arrows: false,
+    });
+      $('.sl').slick();
+  </script>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
