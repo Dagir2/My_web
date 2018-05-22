@@ -17,9 +17,8 @@ body{
 	background-color: #0d0d0d;
 }
 
-/*.cont:nth-child(n+2) {
-display: none;
-}*/
+
+}
 
 a{
 	text-decoration: none;
@@ -210,9 +209,10 @@ background-image: url(../img/Image_button_dark.png);
 	max-height: 300px;
 	max-width: 300px;
 }
-.Slader_Contacts{
-	margin-left: auto;
-    margin-right: auto;
+
+.sl{
 	max-height: 300px;
 	max-width: 300px;
+	margin-left: auto;
+    margin-right: auto;
 }
