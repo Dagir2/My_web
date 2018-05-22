@@ -14,7 +14,7 @@
 body{
 	position: relative;
 	background-image: url(../img/background_col.jpg);
-	background-color: #0d0d0d;
+
 }
 
 
@@ -213,10 +213,10 @@ background-image: url(../img/Image_button_dark.png);
 .sl{
 	max-height: 300px;
 	max-width: 300px;
+	margin-right: : auto;
 	margin-left: auto;
-    margin-right: auto;
 }
 .Slader_Contacts{
 	height: 930px;
-	background-color: #fefee6;
+	background-image: url(../img/background_Content.jpg);
 }
