@@ -171,6 +171,7 @@ background-color:#fefee6;
 }
 .Dagir{
 	position: relative; 
+	text-decoration: none;
 	top:10px;
 	font-size: 50px;
 	font-family: 'Arial', Harabara, sans-serif;
