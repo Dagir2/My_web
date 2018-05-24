@@ -38,9 +38,9 @@ header{
 	
 	margin-top: 630px;
 	margin-left: 15px;
-	height: 55px;
+	height: 51px;
 	width: 929px;
-
+	border-radius: 10px;
 
 	background-image: url(../img/Menu_1.png);
 }
@@ -48,7 +48,7 @@ header{
 	position: absolute;
 	margin-top: 5px;
 	margin-left: 5px;
-	
+	border-radius: 10px;
 	height: 41px;
 	width: 207px;
 
@@ -56,7 +56,8 @@ header{
 
 }
 .glav:hover{
-	background: url(../img/Glav_dark.png);	
+	background: url();	 
+	background-color: #4b3f24; 
 	cursor: pointer;
 }
 
@@ -204,7 +205,8 @@ section .Button_Summary{
 	margin-top: 5px;
 }
 .Button_Summary:hover{
-background-image: url(../img/Image_button_dark.png);	
+background-image: url();	
+background-color:  black;
 }
 .Slader{
 	max-height: 300px;
