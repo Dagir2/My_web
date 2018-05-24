@@ -81,23 +81,59 @@
 						<img src="img/Dagir.jpg">
 						
 							<h1><a href="https://github.com/Dagir2" target="_blank" class="Dagir">Dagir</a></h1>
-						<div class="Button_Summary">
+						<div class="Button_Summary" onclick="OpenProfile()">
 								<span class="Profile"><h1>Профиль</h1></span>
 						</div>
-						<div class="Button_Summary">
+						<div class="Button_Summary"  onclick="OpenWeb()">
 								<span class="Profile"><h1>Web</h1></span>
 						</div>
-						<div class="Button_Summary">
+						<div class="Button_Summary" onclick="OpenOOP()">
 								<span class="Profile"><h1>OOP</h1></span>
 						</div>
-						<div class="Button_Summary">
+						<div class="Button_Summary" onclick="OpenEX()">
 								<span class="Profile"><h1>Опыт работы</h1></span>
 						</div>
 					</div>
 				</div>
 			</div>
 				<div class="Summary_right">
-			
+				<div class="grid_8">
+							<div class="text_menu">
+
+
+								<div class="Text_right_Profil">
+									<p>
+									Начну, пожалуй, мня зовут Данил (ФИО: Кириченко Данил Олегович) .Сейчас мне 18 лет, живу на данный момент за минском, хочу переехать в Минск, но финансы не позволяют.  Увлекся программированием относительно недавно год назад, когда поступил в колледж. Мой путь начался с паскаля ;). 
+									</p>
+									<p>
+							На данный момент перепробовал много языков программирования, Java, C#, pascal и др. Самая большая проблема которая сейчас перед мной стоит это языковой барьер т.к. все хорошая информация о программировании написана на английском. Все языки программирования мне нарваться поэтому я не могу выбрать основной, поэтому надеюсь, что меня поставят на путь истинный. 
+							</p>
+							<p>
+<p>Немного о хобби:</p>
+<p>Играю волейбол, шахматы, очень люблю велосипед т.к. кататься на нем это очень хороший способ развеяться. </p> 
+	<p>Чего хочу:</p>
+<p>Хочу получить опыт, предпочтительно в OOP, но Web мне тоже интересен. </p>
+	</p>
+								</div>
+								<div class="Text_right_web">
+										<p>
+											Об web мои знания очень ограничены т.к. мой сдвиг произошло в этой сфере с мертвой точке после того как я захотел написать свой сайт резюме. Обладаю базовыми знаниями HTML, CSS JavaScript, в PHP, SQL все очень плохо, хочу изучить!!.
+										</p>
+										<p> Хотел бы устроиться на стажировку, т.к. главной проблемой для меня остается отсутствие практического опыта, вы можете видеть сами по данному сайту, очень нуждаюсь в практическом опыте, а также в опыте командной работы.</p>
+										<img src="img/Web_img.jpg">
+
+								</div>
+								<div>
+									<p>kkkkk</p>
+								</div>
+
+								<div>
+									<p>
+										pppppppppp
+									</p>
+								</div>
+						</div>
+					</div>
 				</div>
 		</div>
 	</div>
@@ -145,6 +181,12 @@
   ]
       });
 
+$('.text_menu').slick({
+		dots:false,
+      	arrows: false,
+      	draggable: false,
+		fade: true,
+});
   </script>
   <script type="text/javascript">
   	function OpenHome(){
@@ -159,9 +201,22 @@
 	}
 	   function OpenContacts(){
 	   	 $('section').slick('slickGoTo',3);
-	   	 $('.sl').slick('slickGoTo',0);
-	   
+	}
 
+	function OpenProfile(){
+		 $('.text_menu').slick('slickGoTo',0);
+	}
+
+	function OpenWeb(){
+		$('.text_menu').slick('slickGoTo',1);	
+	}
+
+	function OpenOOP(){
+		$('.text_menu').slick('slickGoTo',2);
+	}
+
+	function OpenEX(){
+		$('.text_menu').slick('slickGoTo',3);
 	}
   </script>
 

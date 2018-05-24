@@ -221,3 +221,34 @@ background-image: url(../img/Image_button_dark.png);
 	height: 930px;
 	background-image: url(../img/background_Content.jpg);
 }
+.Text_right_web p{
+	padding-top: 10px;
+	text-indent: 20px;
+	color: #14597a;
+	text-align: justify;
+	font-size: 30px;
+	color: #6a898c;
+	font-family: 'Arial', Harabara, sans-serif;
+	font-style: italic;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+.Text_right_web img{
+	margin-top: 50px;
+	max-height: 300px;
+	max-width: 650px;
+}
+
+.Text_right_Profil p{
+	color: #14597a;
+	text-indent: 20px;
+	text-align: justify;
+	font-size: 20px;
+	color: #596aa2;
+	font-family: 'Arial', Harabara, sans-serif;
+	font-style: italic;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
