@@ -254,3 +254,34 @@ background-color:  black;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
 }
+.Text_right_OOP p{
+	color: #14597a;
+	text-indent: 20px;
+	text-align: justify;
+	font-size: 20px;
+	color: #596aa2;
+	font-family: 'Arial', Harabara, sans-serif;
+	font-style: italic;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+.Text_right_OOP{
+	margin-top: 20px;
+}
+.Text_right_OOP img{
+float: left;
+}
+.Text_right_OOP .C{
+	margin-top: 15px;
+	max-width: 210px;
+	max-height: 210px;
+}
+.Text_right_OOP .Java{
+	margin-left: 40px;
+	max-width: 250px;
+	max-height: 250px;
+}
+.Text_right_OOP .Pascal{
+	max-width: 600px;
+}
