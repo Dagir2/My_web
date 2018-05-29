@@ -158,8 +158,15 @@
 	<div class="cont" id="Contacts">
 		<div class="container_12">
 			<div class="Slader_Contacts">
-					
-				
+					<div class="Phone">
+						12
+					</div>
+					<div class="mail">
+						2131
+					</div>
+					<div class="Social">
+						123
+					</div>
 				</div>
 			</div>
 		</div>
@@ -209,18 +216,26 @@ $('.text_menu').slick({
   <script type="text/javascript">
   	function OpenHome(){
 	   $('section').slick('slickGoTo',0);
+	   	$('.slick-track').css('height','930px');
 	}
 
 	   function OpenExpectation(){
 	    $('section').slick('slickGoTo',1);
+	    	$('.slick-track').css('height','930px');
 	}
 	   function OpenSummary(){
 	    $('section').slick('slickGoTo',2);
 	     $('.text_menu').slick('slickGoTo',0);
+	     	$('.slick-track').css('height','930px');
 	}
 	   function OpenContacts(){
 	   	 $('section').slick('slickGoTo',3);
+	   	 	$('.slick-track').css('height','700px');
+	   	 
 	}
+	
+  
+  
 
 	function OpenProfile(){
 		 $('.text_menu').slick('slickGoTo',0);

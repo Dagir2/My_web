@@ -223,7 +223,7 @@ background-color:  black;
 	margin-left: auto;
 }
 .Slader_Contacts{
-	height: 930px;
+	height: 700px;
 	background-image: url(../img/background_Content.jpg);
 }
 .Text_right_web p{
@@ -330,4 +330,44 @@ max-height: 610px;
 .Text_right_Profil img{
 padding-top: 20px;
 margin-left:  10px;
+}
+.Phone{
+	 opacity: 0.9;
+	height: 217px;
+	width: 940px;
+	background: url(../img/Phone_Img.jpg) 100% 100% no-repeat;
+	background-size: contain;
+}
+.mail{
+	 opacity: 0.9;
+	height: 217px;
+	width: 940px;
+	background: url(../img/mail_img.jpg) 100% 100% no-repeat;
+	background-size: contain;
+}
+.Social{
+	 opacity: 0.9;
+	height: 202px;
+	width: 940px;
+	background: url(../img/Social_Img.jpg) 100% 100% no-repeat;
+	background-size: contain;
+}
+.Slader_Contacts .Home__Contacts{
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.Slader_Contacts .Phone{
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.Slader_Contacts .mail{
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.Slader_Contacts .Social{
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.slick-track{
+	height: 930px;
 }
